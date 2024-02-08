@@ -56,7 +56,7 @@
     url: "https://services2.arcgis.com/bB9Y1bGKerz1PTl5/arcgis/rest/services/Map_buffer/FeatureServer/0", // Replace with your feature service URL
     outFields: ["*"] // Specify which fields to include in the layer
   });
-  scene.add(featureLayer); // Add the feature layer to the scene
+  scene.add(featureLayer);}); // Add the feature layer to the scene
       // Add the home button to the top left corner of the view
     view.ui.add(homeBtn, "top-left");
     
